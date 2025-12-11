@@ -10,6 +10,7 @@
     "check": "tsc",
     "db:push": "drizzle-kit push",
     "ensure-session": "node script/ensure-session.js",
+    "diagnose": "node script/diagnose-constraints.js",
     "drizzle-safe": "node script/run-drizzle-safe.js"
   },
   "dependencies": {
