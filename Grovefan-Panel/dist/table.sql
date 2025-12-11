@@ -1,1 +1,1 @@
--- placeholder table.sql (prevents ENOENT read error)
+-- placeholder table.sql
