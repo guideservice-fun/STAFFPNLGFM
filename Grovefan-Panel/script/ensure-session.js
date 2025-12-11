@@ -21,7 +21,7 @@ async function main() {
     await client.end();
     console.log("✅ session table ensured");
   } catch (err) {
-    console.error("❌ error ensuring session table:", err.message);
+    console.error("❌ error ensuring session table:", err.message || err);
     process.exit(1);
   }
 }
